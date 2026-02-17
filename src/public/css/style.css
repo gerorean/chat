@@ -1,0 +1,68 @@
+html, body {
+  /*background: #000;*/
+  background-image: linear-gradient(to right, red, blue);
+  color: #292828;
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.panel {
+  height: 23.33%;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#chat {
+  background: #f0f0f0;
+}
+
+#message-form {
+  background: #e0f7fa;
+}
+
+#c {
+  height: calc(13.33% - 20px);
+  background: #222;
+  padding: 10px;
+}
+
+#writer {
+  height: 100%;
+  background: white;
+  padding: 10px;
+  outline: none;
+  overflow-y: auto;
+}
+
+#conWra{
+  display: none;
+}
+
+/*
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.panel {
+  height: 33.33%;
+  overflow-y: auto;
+  border-bottom: 1px solid #999;
+  padding: 5px;
+}
+
+#a {
+  background: #eee;
+}
+
+#b {
+  background: #fff;
+}
+
+#c {
+  height: 33.33%;
+  padding: 5px;
+}
+*/

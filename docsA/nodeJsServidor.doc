@@ -1,0 +1,132 @@
+Chat Javascript Desde Cero | Crea un Chat con HTML5, Nodejs, Express, WebSockets y Mongodb, Parte 1
+https://www.youtube.com/watch?v=vGikkrp-HPM&list=PLL0TiOXBeDahUYFcY3nTfzqTsuL0wA1jW&index=1
+
+https://youtu.be/vGikkrp-HPM?list=PLL0TiOXBeDahUYFcY3nTfzqTsuL0wA1jW&t=2733
+t=46.00
+
+parte 2..
+https://www.youtube.com/watch?v=s_Stz1KlSdo&list=PLL0TiOXBeDahUYFcY3nTfzqTsuL0wA1jW&index=2
+
+
+parte 3..
+https://youtu.be/nAQEvcehyqo?list=PLL0TiOXBeDahUYFcY3nTfzqTsuL0wA1jW
+
+
+Claudia - FAZT
+GirlDesignTips@gmail.com
+https://www.youtube.com/channel/UC9f_FVOx2cn-XuLws1EspSQ
+https://www.youtube.com/watch?v=vGikkrp-HPM&list=PLL0TiOXBeDahUYFcY3nTfzqTsuL0wA1jW&t=2733s
+
+
+
+jQuery
+https://releases.jquery.com/
+
+apoyos para chat con Nodejs
+1 https://www.youtube.com/watch?v=p-OevzBqHyQ
+2 https://www.youtube.com/watch?v=_-cKHduVAcQ
+3 https://www.youtube.com/watch?v=T3agoyB_sbA
+4 https://www.youtube.com/watch?v=7xt6GhDd7ww
+5 https://fazt.dev/contenido/socketio-nodejs-curso
+6 https://www.youtube.com/watch?v=4dcD9HwDvbs
+7 https://www.youtube.com/playlist?list=PLL0TiOXBeDahUYFcY3nTfzqTsuL0wA1jW
+8 https://www.youtube.com/watch?v=vGikkrp-HPM&list=PLL0TiOXBeDahUYFcY3nTfzqTsuL0wA1jW&index=2
+
+
+
+<<1.
+crear package.json en consola>>
+> npm init --yes
+<Wrote to C:\Users\LENOVO\Desktop\chat A fazt\package.json:
+{
+  "name": "chat-a-fazt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}>
+
+
+<<2.
+Instalar modulo de express>>
+> npm install express 
+<added 65 packages, and audited 66 packages in 6s
+22 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities>
+
+
+<<3. 
+crear un archivo llamado index.js>>
+
+
+<<4. 
+instalar socket.io>>
+> npm install socket.io
+
+
+<<5. 
+correr el servidor>>
+> node index.js
+
+
+<<6. 
+verificar conección io>>
+http://localhost:3000/socket.io/socket.io.js
+
+
+<<7. 
+requerir el archivo socket.io en el html>>
+<script src="/socket.io/socket.io/js" charset="utf-8"></script>
+
+
+<<8. 
+instalar nodemon como dependecia de desarrollo para no estar reiniciando el servidor cada nada>>
+> npm install nodemon -D
+
+
+<<9. 
+terminar de instalar nodemon: se adiciona la siguiente linea al archivo package.json donde dice scripts>>
+"dev": "nodemon src/index.js",
+
+
+
+<<10. 
+correr el servidor con el script de nodemon>>
+> npm run dev
+
+
+
+<<11.
+iniciar un repo y crear el archivo .gitignore>>
+>git init
+.gitignore (file)
+# Dependencias
+node_modules/
+# Variables de entorno
+.env
+.env.*
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+# Carpeta de build / compilación
+dist/
+build/
+# Archivos temporales
+tmp/
+temp/
+# Configuración de editores
+.vscode/
+.idea/

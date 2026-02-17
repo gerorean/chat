@@ -1,0 +1,19 @@
+12 botones:
+===============================================================================
+cuadrado                            barra vertical
+    MENU GENERAL                         AYUDA
+    
+tria Izq                            tria Der 
+    CONTEXTO A LA IZQ                   CONTEXTO A LA DER
+
+tria Arri                           tria Abaj
+    SUBIR CURSOR                         BAJAR CURSOR
+
+barra incl                          circulo 
+    REGRESAR CURSOR                     AVANZAR CURSOR(CLIC)
+
+exis                                rombo
+    1ER BOTON/SALIR/CANCELAR            MENU ESPECIAL(SE ADAPTA AL CONTEXTO)
+
+barra horizontal  (Espacio)         rectangulo horizontal
+    BOTON MORSE/MICROFONO               EN VIVO/S.O.S.(CAMARAS,GPS,MIC COMUNITARIO/EMERGENCIA)
