@@ -1,3 +1,6 @@
+Learn Touch Typing for free!
+https://www.typingclub.com/
+
 Repo original Fazt:
 https://github.com/fazt/chat-javascript-fullstack
 
@@ -133,3 +136,43 @@ temp/
 # Configuración de editores
 .vscode/
 .idea/
+
+
+
+insertar un dato tipo objeto dentro de una collección
+webstore> db.products.insert({
+|     nombre:"laptop",
+|     precio:40.2,
+|     active:false,
+|     create_at: new Date("12/12/1999"),
+|     somedata:[1,"a",[]],
+|     facturer:{
+|         name:"dell",
+|         version:"xps",
+|         location:{
+|             city:"usa",
+|             address:"asdasd"
+|         }
+|     }
+| })
+{
+  acknowledged: true,
+  insertedIds: { '0': ObjectId('699b3f72d6dedf18077c2909') }
+}
+
+webstore> db.products.find()
+[
+  {
+    _id: ObjectId('699b3f72d6dedf18077c2909'),
+    nombre: 'laptop',
+    precio: 40.2,
+    active: false,
+    create_at: ISODate('1999-12-12T05:00:00.000Z'),
+    somedata: [ 1, 'a', [] ],
+    facturer: {
+      name: 'dell',
+      version: 'xps',
+      location: { city: 'usa', address: 'asdasd' }
+    }
+  }
+]
