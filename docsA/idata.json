@@ -1,0 +1,63 @@
+{   id_lang:1,
+    lang:"English",
+    mill:1450,
+    on:1,
+    rtol:0,
+    langT4:"Ingles",
+    langT6:"Anglais",
+    langT22:"영어"
+}
+
+{   id_lang:2,
+    lang:"普通话",
+    mill:1100,
+    on:0,
+    rtol:0,
+    langT1:"Mandarin"
+}
+
+{   id_lang:3,
+    lang:"हिंदी",
+    mill:650,
+    on:0,
+    rtol:0,
+    langT1:"Hindi"
+}
+
+{   id_lang:4,
+    lang:"Español",
+    mill:550,
+    on:1,
+    rtol:0,
+    langT1:"Spanish",
+    langT6:"Espagnol",
+    langT22:"스페인 사람"
+}
+
+{   id_lang:5,
+    lang:"فرس عربي",
+    mill:400,
+    on:0,
+    rtol:1,
+    langT1:"Arab"
+}
+
+{   id_lang:6,
+    lang:"Français",
+    mill:300,
+    on:1,
+    rtol:0,
+    langT1:"French",
+    langT4:"Francés",
+    langT22:"프랑스 국민"
+}
+
+{   id_lang:22,
+    lang:"한국인",
+    mill:81,
+    on:1,
+    rtol:0,
+    langT1:"Korean",
+    langT4:"coreano",
+    langT6:"coréen"
+}

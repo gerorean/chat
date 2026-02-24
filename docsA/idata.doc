@@ -1,0 +1,59 @@
+//collection: routesA
+{   
+
+}
+
+
+// collection: langs
+// lang idioma local
+// mill millones de personas en el mundo que lo hablan
+// on en 1: activo en la plataforma, 0: no disponible
+// rtol right to left, en 1: se lee de derecha a izquierda, 0: se lee de izquierda a derecha
+// langT1 traducción del idioma local al idioma 1 (ingles internacional)
+
+{   id_lang:1,
+    lang:"English",
+    mill:1450,
+    on:1,
+    rtol:0
+}
+
+{   id_lang:2,
+    lang:"普通话",
+    mill:1100,
+    on:0,
+    rtol:0,
+    langTrans:"Mandarin"
+}
+
+{   id_lang:3,
+    lang:"हिंदी",
+    mill:650,
+    on:0,
+    rtol:0,
+    langTrans:"Hindi"
+}
+
+{   id_lang:4,
+    lang:"Español",
+    mill:550,
+    on:1,
+    rtol:0,
+    langTrans:"Spanish"
+}
+
+{   id_lang:5,
+    lang:"فرس عربي",
+    mill:400,
+    on:0,
+    rtol:1,
+    langTrans:"Arab"
+}
+
+{   id_lang:6,
+    lang:"Français",
+    mill:300,
+    on:1,
+    rtol:0,
+    langTrans:"French"
+}
