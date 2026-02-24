@@ -1,0 +1,13 @@
+https://www.mongodb.com/es/docs/atlas/sample-data/?interface=atlas-ui
+
+https://cloud.mongodb.com/v2/69988b9f7a1f32ea4e403a10#/clusters
+
+https://platzi.com/cursos/mongodb/mongo-en-vscode/
+
+
+mongodb compass
+aplicacion local para gestionar mongo local o mongo atlas por medio de una ventana
+
+mongod activa un servidor de mongo local trabaja con la carpeta C:data/db
+
+mongosh activa un terminal shield local de mongo para gestionar bases de datos con código
